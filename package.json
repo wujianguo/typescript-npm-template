@@ -1,0 +1,45 @@
+{
+  "name": "typescript-npm-template",
+  "version": "1.0.0",
+  "description": "typescript npm template",
+  "keywords": [
+    "react",
+    "typescript",
+    "npm",
+    "template"
+  ],
+  "author": "wujianguo <lsjustin89@gmail.com>",
+  "homepage": "https://github.com/wujianguo/typescript-npm-template",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wujianguo/typescript-npm-template.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "ts-node tests/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
