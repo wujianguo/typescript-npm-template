@@ -29,6 +29,8 @@
     "node": ">=18"
   },
   "scripts": {
+    "lint": "eslint --ext .ts src tests",
+    "format": "prettier --write src/**/*.ts tests/**/*.ts",
     "test": "ts-node tests/index.ts",
     "build": "tsc"
   },
